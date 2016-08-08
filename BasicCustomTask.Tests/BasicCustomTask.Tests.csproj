@@ -33,7 +33,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="SEV.proj" />
+    <None Include="Sev\Project.xml" />
+    <None Include="Sev.Property\Project.xml" />
+    <None Include="Sev.Property\Property.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sev\" />
+    <Folder Include="Sev.Property\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

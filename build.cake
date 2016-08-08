@@ -15,9 +15,14 @@ Task("Build-Debug")
         build(solution, "Build", "Debug");
     });
 
-Task("Run-SEV")
+Task("Sev")
     .Does(() => {
-        build("BasicCustomTask.Tests/SEV.proj", "MyTarget", "Debug");
+        build("BasicCustomTask.Tests/Serv/Project.xml", "MyTarget", "Debug");
+    });
+
+Task("Sev.Property")
+    .Does(() => {
+        build("BasicCustomTask.Tests/Serv.Property/Project.xml", "MyTarget", "Debug");
     });
 
 var target = Argument("target", "default");

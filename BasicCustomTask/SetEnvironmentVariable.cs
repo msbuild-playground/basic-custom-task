@@ -17,6 +17,7 @@ namespace BasicCustomTask {
 		public bool Execute()
         {                        
             System.Environment.SetEnvironmentVariable(Name, Value);
+
 			var message = string.Format("Environment Variable {0} set to {1}", Name, Value);
             var args = new BuildMessageEventArgs(
                 message, string.Empty, "SetEnvironmentVariable", MessageImportance.Normal);

@@ -1,4 +1,4 @@
-## Basic MSBuld Task
+## Basic MSBuild Task
 
 How to implement custom tasks.
 
