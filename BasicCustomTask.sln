@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCustomTask", "BasicCus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCustomTask.Tests", "BasicCustomTask.Tests\BasicCustomTask.Tests.csproj", "{9B3DA259-6E72-429E-AD1B-B5FCF6D0DB16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C0B26E1-F722-423B-A493-4B2A4496BEAA}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -17,12 +17,12 @@ Task("Build-Debug")
 
 Task("Sev")
     .Does(() => {
-        build("BasicCustomTask.Tests/Serv/Project.xml", "MyTarget", "Debug");
+        build("BasicCustomTask.Tests/Sev/Project.xml", "MyTarget", "Debug");
     });
 
 Task("Sev.Property")
     .Does(() => {
-        build("BasicCustomTask.Tests/Serv.Property/Project.xml", "MyTarget", "Debug");
+        build("BasicCustomTask.Tests/Sev.Property/Project.xml", "MyTarget", "Debug");
     });
 
 var target = Argument("target", "default");
